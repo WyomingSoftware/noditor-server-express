@@ -1,0 +1,28 @@
+{
+  "name": "noditor-server-express",
+  "version": "1.0.0",
+  "description": "Node.js Example App using Express",
+  "main": "server.js",
+  "directories": {
+    "example": "examples",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "noditor": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WyomingSoftware/noditor-server-express.git"
+  },
+  "author": "Warren Anderson <warren@wyomingsoftware.com> (http://www.wyomingsoftware.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WyomingSoftware/noditor-server-express/issues"
+  },
+  "homepage": "https://github.com/WyomingSoftware/noditor-server-express#readme"
+}
