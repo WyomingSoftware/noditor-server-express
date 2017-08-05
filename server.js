@@ -5,7 +5,7 @@ var express = require('express');
 var app = express();
 
 // Add the endpoint needed by the Noditor Mobile App
-app.get('/noditor/:passcode/:command', noditor.commands);
+app.get('/noditor/:path/:passcode/:command', noditor.commands);
 
 // Start Express
 app.listen(8080, function () {
